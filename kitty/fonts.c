@@ -600,6 +600,7 @@ START_ALLOW_CASE_RANGE
         case 0xe0ba: //   
         case 0xe0bc: // 
         case 0xe0be: //   
+        case 0x1fb00 ... 0x1fb3b:  // sextants
             return BOX_FONT;
         default:
             ans = in_symbol_maps(fg, cpu_cell->ch);
